@@ -143,3 +143,79 @@ kbd {
   padding: 2px 6px;
   border-radius: 6px;
 }
+
+/* --- Connections polish: animations + popup --- */
+@keyframes popIn {
+  from { transform: translateY(8px) scale(0.98); opacity: 0; }
+  to { transform: translateY(0) scale(1); opacity: 1; }
+}
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+@keyframes solvedGlow {
+  from { box-shadow: 0 0 0 rgba(0,0,0,0); }
+  to { box-shadow: 0 0 24px rgba(122,167,255,0.22); }
+}
+
+.tile.bounce { animation: popIn 140ms ease-out; }
+.gridShake { animation: shake 280ms ease-in-out; }
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 18px;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.75);
+  border: 1px solid rgba(255,255,255,0.18);
+  padding: 10px 14px;
+  border-radius: 12px;
+  color: var(--text);
+  font-weight: 800;
+  z-index: 9999;
+  animation: popIn 160ms ease-out;
+  pointer-events: none;
+}
+.popup.hidden { display: none; }
+
+/* Connections difficulty colors (you can interpret these as Easy/Med/Hard/Expert) */
+.diff0 { background: rgba(46,204,113,0.18); border-color: rgba(46,204,113,0.45); }
+.diff1 { background: rgba(241,196,15,0.18); border-color: rgba(241,196,15,0.45); }
+.diff2 { background: rgba(122,167,255,0.16); border-color: rgba(122,167,255,0.45); }
+.diff3 { background: rgba(231,76,60,0.15); border-color: rgba(231,76,60,0.45); }
+
+.solvedGroup { animation: solvedGlow 280ms ease-out; }
+
+/* --- Blur game --- */
+.blurWrap {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.blurImg {
+  width: min(720px, 100%);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+input[type="text"]{
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  min-width: 220px;
+  font-weight: 700;
+}
+
