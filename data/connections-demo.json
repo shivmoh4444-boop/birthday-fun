@@ -1,0 +1,9 @@
+{
+  "puzzleId": "Connections",
+  "groups": [
+    { "name": "Prisha and Shivan's stuffed animal names", "difficulty": 0, "words": ["BEANS","BAGEL","EMILY","AVOCADO"] },
+    { "name": "Places we went to in Singapore", "difficulty": 1, "words": ["MBS","BINJAI","SMU","KENT RIDGE"] },
+    { "name": "Prisha's favourites (According to the note)", "difficulty": 2, "words": ["BLUE","SPONGE","TIGER","BROCCOLI"] },
+    { "name": "First parts of songs that were on the tape", "difficulty": 3, "words": ["CARD","GET","SUPER","LOVE"] }
+  ]
+}
