@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Wordle</title>
+</head>
+<body>
+  <main class="container">
+    <p><a href="index.html">← Back</a></p>
+    <h1>Wordle</h1>
+    <p class="muted">Type letters. Press <kbd>Enter</kbd> to submit, <kbd>Backspace</kbd> to delete. 6 tries.</p>
+
+    <div id="board" class="wordleBoard"></div>
+
+    <div class="controls">
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div id="status" class="notice"></div>
+  </main>
+
+  <script src="wordle.js"></script>
+</body>
+</html>
