@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Blur Date Guess</title>
+</head>
+<body>
+  <main class="container">
+    <p><a href="index.html">← Back</a></p>
+    <h1>Blur Date Guess</h1>
+    <p class="muted">
+      Guess the date the photo is from. You have 5 turns.
+      Each wrong guess makes the image a bit less blurry.
+    </p>
+
+    <div class="blurWrap">
+      <img id="photo" class="blurImg" src="" alt="Blurred mystery photo" />
+      <div class="inputRow">
+        <input id="guess" type="text" placeholder="YYYY-MM-DD (e.g. 2023-08-14)" />
+        <button id="submitBtn">Submit</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <div id="status" class="notice"></div>
+    </div>
+  </main>
+
+  <script src="blurdate.js"></script>
+</body>
+</html>
