@@ -1,9 +1,9 @@
 {
   "puzzleId": "Connections",
   "groups": [
-    { "name": "Prisha and Shivan's stuffed animal names", "difficulty": 0, "words": ["BEANS","BAGEL","EMILY","AVOCADO"] },
-    { "name": "Places we went to in Singapore", "difficulty": 1, "words": ["MBS","BINJAI","SMU","KENT RIDGE"] },
-    { "name": "Prisha's favourites (According to the note)", "difficulty": 2, "words": ["BLUE","SPONGE","TIGER","BROCCOLI"] },
-    { "name": "First parts of songs that were on the tape", "difficulty": 3, "words": ["CARD","GET","SUPER","LOVE"] }
+    { "name": "Dates we've had", "difficulty": 0, "words": ["PICNIC","RANGE","ARCADE","PISCO"] },
+    { "name": "Throw backs to pre-dating era", "difficulty": 1, "words": ["BOK-CHOY","HOLI","MESSAGE","PAPERCRACKER"] },
+    { "name": "First names of Artists on our playlist", "difficulty": 2, "words": ["JUSTIN","BRUNO","LIAM","ROSS"] },
+    { "name": "Second halves of places where we've had month dates", "difficulty": 3, "words": ["MARK","HUB","DORI","CHILL"] }
   ]
 }
