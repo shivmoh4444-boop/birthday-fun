@@ -1,7 +1,7 @@
 {
   "puzzleId": "Connections",
   "groups": [
-    { "name": "Dates we've had", "difficulty": 0, "words": ["PICNIC","RANGE","ARCADE","PISCO"] },
+    { "name": "Unique dates we've had", "difficulty": 0, "words": ["PICNIC","RANGE","TENNIS","PISCO"] },
     { "name": "Throw backs to pre-dating era", "difficulty": 1, "words": ["BOK-CHOY","HOLI","MESSAGE","PAPERCRACKER"] },
     { "name": "First names of Artists on our playlist", "difficulty": 2, "words": ["JUSTIN","BRUNO","LIAM","ROSS"] },
     { "name": "Second halves of places where we've had month dates", "difficulty": 3, "words": ["MARK","HUB","DORI","CHILL"] }
