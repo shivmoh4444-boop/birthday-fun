@@ -1,9 +1,9 @@
 {
   "puzzleId": "Connections",
   "groups": [
-    { "name": "Unique dates we've had", "difficulty": 0, "words": ["PICNIC","RANGE","TENNIS","PISCO"] },
-    { "name": "Throw backs to pre-dating era", "difficulty": 1, "words": ["BOK-CHOY","HOLI","MESSAGE","PAPERCRACKER"] },
-    { "name": "First names of Artists on our playlist", "difficulty": 2, "words": ["JUSTIN","BRUNO","LIAM","ROSS"] },
-    { "name": "Second halves of places where we've had month dates", "difficulty": 3, "words": ["MARK","HUB","DORI","CHILL"] }
+    { "name": "Months we have celebreated", "difficulty": 0, "words": ["JULY","DECEMBER","AUGUST","MAY"] },
+    { "name": "Months we haven't celebrated", "difficulty": 1, "words": ["OCTOBER","JANUARY","NOVEMBER","SEPTEMBER"] },
+    { "name": "The last two are troll ones", "difficulty": 2, "words": ["HEAVEN","CARD","COW","DORJEE"] },
+    { "name": "The last two are troll ones", "difficulty": 3, "words": ["KENT","RIVER","SNAP","BOOK"] }
   ]
 }
